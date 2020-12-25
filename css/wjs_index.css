@@ -1,0 +1,100 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ee {
+  height: 50px;
+  line-height: 50px;
+}
+.ee .ff {
+  width: 1170px;
+  margin: auto;
+}
+.ee .ff li {
+  float: left;
+  border-right: 1px solid #ccc;
+  text-align: center;
+}
+.ee .ff li a {
+  color: #0051ff;
+}
+.ee .ff li a:hover {
+  text-decoration: underline;
+}
+.ee .ff li:nth-child(2) a:hover {
+  text-decoration: underline;
+}
+.ee .ff li:nth-child(3) a {
+  margin: 0 10px;
+}
+.ee .ff li:nth-child(3) a:hover {
+  text-decoration: underline;
+}
+.ee .ff .last {
+  margin-left: 50px;
+  border: none;
+}
+.ee .ff .last input:nth-child(1) {
+  width: 88px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #e92322;
+  border-color: #e92322;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+}
+.ee .ff .last input:nth-child(2) {
+  width: 66px;
+  height: 28px;
+  line-height: 28px;
+  background-color: transparent;
+  border: 0;
+  color: #000;
+  border-radius: 5px;
+}
+.cc {
+  height: 83px;
+}
+.container-fluid .nav-aa li {
+  margin-right: 15px;
+  padding: 0 10px;
+}
+.container-fluid .nav-aa li:hover {
+  border-bottom: 3px solid #e92322;
+}
+.container-fluid .nav-aa li:nth-child(1) {
+  border-bottom: 3px solid #e92322;
+}
+.container-fluid .nav-aa li a {
+  padding: 0;
+  height: 100%;
+  line-height: 80px;
+  font-size: 16px;
+}
+.container-fluid .nav-b li {
+  height: 80px;
+  margin-right: 15px;
+  padding: 0 10px;
+}
+.container-fluid .nav-b li:hover {
+  border-bottom: 3px solid #e92322;
+}
+.container-fluid .nav-b li a {
+  padding: 0;
+  height: 100%;
+  line-height: 80px;
+  font-size: 16px;
+}
+.jiaoyi {
+  width: 1170px;
+  margin: auto;
+}
+.jiaoyi li a {
+  color: #0051ff;
+}
+.jiaoyi li a:hover {
+  color: #e92322;
+  text-decoration: underline;
+}
